@@ -2,7 +2,7 @@
 {% load static %} 
 {% block content %}
     <!--NavBar-->
-    
+    {% include 'partials/header.html' %}
     <main>
       <div class="b-example-divider text-bg-dark py-2" style="opacity: 50%;"></div>
       <!--Modal Login-->
@@ -145,5 +145,6 @@
       <!--Feedback/Contatos-->
     </main>
     <!--Footer-->
+    {% include 'partials/footer.html' %}
     
  {% endblock %}
