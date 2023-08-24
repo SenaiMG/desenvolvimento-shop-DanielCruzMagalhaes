@@ -9,3 +9,8 @@ def index(request):
 def pagina(request):
     return render(request,'index.html')
 
+def produtos(request):
+    return render(request,'produtos.html')
+
+def carrinho(request):
+    return render(request,'carrinho.html')
